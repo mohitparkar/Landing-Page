@@ -1,0 +1,265 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+header .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+header .contact-info .phone {
+    margin-right: 20px;
+}
+
+header .contact-info .phone,
+header .contact-info .email {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('path-to-your-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.hero .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero .cta-buttons a {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.hero .cta-buttons a:hover {
+    background-color: #e65c00;
+}
+
+/* Services Section Styles */
+.services {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services .service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-item i {
+    font-size: 48px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.services .service-item h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.services .service-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about .content h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+.about .content p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #666;
+}
+
+.about .content .cta-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.about .content .cta-button:hover {
+    background-color: #e65c00;
+}
+
+.about .image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Services Section Styles */
+.services-2 {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-2 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-2 .service-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-2 .service-item img {
+    max-width: 100%;
+    height: 178px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.services-2 .service-item h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.services-2 .service-item p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
